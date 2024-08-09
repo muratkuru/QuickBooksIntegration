@@ -1,0 +1,13 @@
+﻿@page
+@model QuickBooksIntegration.Web.Pages.CategoryModel
+@{
+}
+
+<h1>Category List</h1>
+
+<ul>
+    @foreach (var item in Model.Categories)
+    {
+        <li>@item</li>
+    }
+</ul>
